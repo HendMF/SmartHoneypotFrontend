@@ -465,7 +465,7 @@ export async function createUser({
 export function getMockActivationUrl(
   token
 ) {
-  return `/activate?token=${token}`;
+  return `${window.location.origin}/activate?token=${token}`;
 }
 
 export async function resendActivation(

@@ -37,7 +37,7 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 import RoleRoute from "./routes/RoleRoute";
 
 
-function  () {
+function App  () {
   const [showSplash, setShowSplash] =
     useState(true);
 
@@ -178,4 +178,4 @@ function  () {
   );
 }
 
-export default  ;
+export default App;
