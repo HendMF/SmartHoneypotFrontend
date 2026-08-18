@@ -37,7 +37,7 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 import RoleRoute from "./routes/RoleRoute";
 
 
-function App() {
+function  () {
   const [showSplash, setShowSplash] =
     useState(true);
 
@@ -87,19 +87,6 @@ function App() {
 
 
           <Route
-            path="/forgot-password"
-            element={
-              <ForgotPassword />
-            }
-          />
-
-
-          <Route
-            path="/reset-password"
-            element={
-              <ResetPassword />
-            }
-          />
 
 
           <Route
@@ -193,4 +180,4 @@ function App() {
   );
 }
 
-export default App;
+export default  ;
