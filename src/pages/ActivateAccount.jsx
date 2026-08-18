@@ -265,15 +265,6 @@ const session =
           userId
         );
 
-
-
-      console.log(
-        "NEW ACTIVATION LINK:",
-        `/activate?token=${result.activationToken}`
-      );
-
-
-
       setSuccess(
         "New activation link generated."
       );

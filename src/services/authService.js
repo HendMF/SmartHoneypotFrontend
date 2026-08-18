@@ -465,7 +465,7 @@ export async function createUser({
 export function getMockActivationUrl(
   token
 ) {
-  return `${window.location.origin}/activate?token=${token}`;
+  return `${import.meta.env.VITE_FRONTEND_URL}/activate?token=${token}`;
 }
 
 export async function resendActivation(

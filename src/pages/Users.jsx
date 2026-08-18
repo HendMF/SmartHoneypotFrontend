@@ -148,10 +148,10 @@ console.log(
       );
 
       if (
-        result?.activationToken
+        result?. 
       ) {
         setActivationLink(
-          `/activate?token=${result.activationToken}`
+    `${window.location.origin}/activate?token=${result.activationToken}`
         );
       }
     }
