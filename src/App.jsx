@@ -72,18 +72,20 @@ function  () {
   path="/forgot-password"
   element={<ForgotPassword />}
 />
-
-
-<Route
-  path="/reset-password"
-  element={<ResetPassword />}
-/>
           <Route
             path="/activate"
             element={
               <ActivateAccount />
             }
           />
+
+          <Route
+            path="/reset-password"
+            element={
+              <ResetPassword />
+            }
+          />
+
 
           <Route
             path="/forbidden"
@@ -176,4 +178,4 @@ function  () {
   );
 }
 
-export default;
+export default  ;
