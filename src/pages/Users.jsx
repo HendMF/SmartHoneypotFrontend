@@ -151,7 +151,7 @@ console.log(
         result?. 
       ) {
         setActivationLink(
-    `${window.location.origin}/activate?token=${result.activationToken}`
+  `${import.meta.env.VITE_FRONTEND_URL}/activate?token=${result.activationToken}`
         );
       }
     }
